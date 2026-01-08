@@ -10,7 +10,7 @@ export const PostInfo = ({ post }) => (
       <p>
         {' Posted by  '}
 
-        <UserInfo user={post.user} key={post.user.id} />
+        <UserInfo user={post.user} />
       </p>
     </div>
 
